@@ -1,7 +1,7 @@
 # glexicon-data-optimizer
 An open-source implementation of a lightweight coordinate-based data compression protocol designed to reduce device footprint and latency.
 
-Glexicon Global Interceptor 
+Glexicon Global Interceptor:  
 Glexicon Global Interceptor is an open-source browser extension designed to explore low-bandwidth text transmission via coordinate-based mapping. By intercepting and reconstructing text nodes in real-time, it demonstrates a method for reducing device footprint and minimizing data overhead for high-traffic web applications.
 Core Concept
 The extension operates on a lightweight, deterministic coordinate lookup system. Instead of transferring raw strings, the protocol maps text to numerical coordinates based on a predefined GLEXICON_LOOKUP schema. This approach aims to reduce the payload size during client-server interactions by substituting high-frequency words and characters with indexed references.
