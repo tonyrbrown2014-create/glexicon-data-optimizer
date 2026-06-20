@@ -141,3 +141,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+# --- Custom Protections for Black Box IP ---
+*.db
+server_side_handshake.js
+# -------------------------------------------
