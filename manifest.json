@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Glexicon Global Interceptor",
+  "version": "1.0",
+  "description": "Seamlessly encodes and decodes text using Glexicon coordinates.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["glexicon_lookup.js", "content_interceptor.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
